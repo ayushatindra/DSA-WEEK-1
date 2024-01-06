@@ -9,7 +9,7 @@ int main(){
 
     // cout<<(5)/((double)3);
 
-    // int a = 5;
+    // int a = 5;,
     // int b = 3;
 
     // cout << a+b <<endl;
@@ -214,13 +214,13 @@ int main(){
 //     cout<<endl;
 // }
 
-int n;
-cin >> n;
-for(int row=0;row<n;row++){
-    for(int col=0;col<n-row;col++){
-        cout<<"*";
-    }
-    cout<<endl;
-}
+// int n;
+// cin >> n;
+// // for(int row=0;row<n;row++){
+// //     for(int col=0;col<n-row;col++){
+// //         cout<<"*";
+// //     }
+//     cout<<endl;
+// }
 
 }
