@@ -223,4 +223,79 @@ cin >> n;
     cout<<endl;
 }
 
+         //using char to store the character
+  
+  // char ch;
+  // cin >> ch;
+  // cout <<" Here :" << ch << endl;
+  
+// using int to store the character
+  // int marks;
+  // cin >> marks;  
+  // cout << "Marks : " << marks << endl;
+
+  // int age = 101;
+  // int car = 12;
+
+  // if(age >= 18 && car >= 1){
+  //   cout<<"Licence mil jayega"<<endl;
+  // }
+  // else{
+  //   cout<<"Licence nhi milega"<<endl;
+  // }
+
+  // int age =12;
+  // cout<< !age << endl;
+
+    // int a = 20;
+    // int b = 10;
+
+    // cout<<(a == b) << endl;
+
+  // int a = 3;
+  // int b = 4;
+
+  // cout << a + b << endl;
+  // cout << a - b << endl;
+  // cout << a * b << endl;
+  // cout << a/b << endl; 
+  // cout << b % a << endl;
+  // cout << a % b << endl;
+  // cout << a++ << endl;
+  // cout << a-- << endl;
+  // cout << b++ <<endl;
+  // cout << b-- << endl;
+
+
+  //garbage
+  // int num;
+  // num =12;
+  // cout<<num<<endl;
+
+  // int num =22;
+  // cout<<  sizeof(num) << endl;
+   //character ->1 Byte
+  // char ch = 'k';
+  // cout << ch << endl;
+  // cout << sizeof(ch) << endl;
+  // Float -> 4 byte
+  // float point =1.69;
+  // cout << point << endl;
+  // cout << sizeof(point) << endl;
+
+  //long -> 4 byte
+  // long number =23;
+  // cout << number << endl;
+  // cout << sizeof(number) << endl;
+
+  // cout << "Love " << endl <<"babbar" << '\n';
+  // cout << "Love Babbar" << endl;  
+  // cout << endl;
+  // cout << endl;
+  // cout << '\n';
+  // cout << "Love Babbar";
+  
+  
+  
+
 }
