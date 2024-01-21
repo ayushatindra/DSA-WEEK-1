@@ -294,6 +294,25 @@ cin >> n;
   // cout << endl;
   // cout << '\n';
   // cout << "Love Babbar";
+    // int num = 7;
+  // if(num%2 ==0){
+  //   cout << "Even" <<endl;
+    
+  // }
+  // else{
+  //   cout << "Odd" <<endl;
+  // }
+
+  int  num = 0;
+  if (num > 0){
+    cout << "Positive" <<endl;
+  }
+  else if (num < 0){
+    cout << "Negative" <<endl;
+  }
+  else{
+    cout << "Zero" <<endl;
+  }
   
   
   
