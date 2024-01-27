@@ -313,7 +313,232 @@ cin >> n;
   else{
     cout << "Zero" <<endl;
   }
+  #include <iostream>
+using namespace std;
+void pattern2(int n) {
+  for (int row = 0; row < n; row++) {
+    for (int col = 0; col < n; col++) {
+      cout << "*";
+    }
+    cout << endl;
+  }
+}
+
+void pattern(int n) {
+
+  for (int row = 0; row < n; row++) {
+    for (int col = 0; col < row + 1; col++) {
+      cout << "*";
+    }
+    cout << endl;
+  }
+}
+void pattern3(int n) {
+  // Pattern – 3: Right-Angled Number Pyramid
+  for (int row = 0; row < n; row++) {
+    for (int col = 0; col < row + 1; col++) {
+      cout << col + 1;
+    }
+    cout << endl;
+  }
+}
+void pattern4(int n) {
+  // Pattern – 4: Right-Angled Number Pyramid – II
+  for (int row = 0; row < n; row++) {
+    for (int col = 0; col < row + 1; col++) {
+      cout << row + 1;
+    }
+    cout << endl;
+  }
+}
+
+void pattern5(int n) {
+  // Pattern-5: Inverted Right Pyramid
+  for (int row = 0; row < n; row++) {
+    for (int col = 0; col < n - row; col++) {
+      cout << "*";
+    }
+    cout << endl;
+  }
+}
+
+void pattern6(int n) {
+  // Pattern – 6: Inverted Numbered Right Pyramid
+  for (int row = 0; row < n; row++) {
+    for (int col = 0; col < n - row; col++) {
+      cout << col + 1;
+    }
+    cout << endl;
+  }
+}
+void pattern7(int n) {
+  // Pattern – 7: Star Pyramid
+  for (int row = 0; row < n; row++) {
+    // spaces
+    for (int col = 0; col < n - row - 1; col++) {
+      cout << " ";
+    }
+    // stars
+    for (int col = 0; col < row + 1; col++) {
+      cout << "* ";
+    }
+    cout << endl;
+  }
+}
+void pattern8(int n){
+  // Pattern – 8: Inverted Star Pyramid
+  for (int row = 0; row < n; row++){
+    // spaces
+    for(int col = 0; col < row; col++){
+      cout << " ";
+    }
+    //star
+    for(int col = 0; col < n - row; col++){
+      cout<<"* ";
+    }
+    cout<<endl;
+  }
+}
+void pattern9(int n){
+  // Pattern – 9: Diamond Star Pattern
+  for(int row = 0; row < n; row++){
+    // spaces
+    for(int col = 0; col < n - row - 1; col++){
+      cout<<" ";
+    }
+    // stars
+    for(int col = 0; col < row + 1; col++){
+      cout<<"* ";
+    }
+    cout<<endl;
+  }
+  for(int row = 0; row < n; row++){
+    // spaces
+    for(int col = 0; col < row; col++){
+      cout<<" ";
+    }
+    // stars
+    for(int col = 0; col < n - row; col++){
+      cout<<"* ";
+    }
+    cout<<endl;
+  }
   
+}
+void pattern10(int n){
+  // Pattern – 10: Half Diamond Star Pattern
+  for(int row = 0; row < n; row++){
+    // spaces
+    for(int col = 0; col < n - row - 1; col++){
+      cout<<" ";
+    }
+    // stars
+    for(int col = 0; col < row + 1; col++){
+      cout<<"*";
+    }
+    cout<<endl;
+  }
+  for(int row = 0; row < n; row++){
+    // spaces
+    for(int col = 0; col < row; col++){
+      cout<<" ";
+    }
+    // stars
+    for(int col = 0; col < n - row; col++){
+      cout<<"*";
+    }
+    cout<<endl;
+  }
+  
+}
+void pattern11(int n){
+  // Pattern – 11: Binary Number Triangle Pattern
+  for(int row=0;row<n;row++){
+    // spaces
+  }
+}
+void pattern12(int n){
+  // :Pattern – 11: Binary Number Triangle Pattern
+  int start =1;
+  
+  for(int row =0;row<n;row++){
+    if( row%2 == 0){
+      start =1;
+    }
+    else{
+      start = 0;
+    }
+    for(int col=0;col<row+1;col++){
+      cout<<start;
+      start = 1 - start;
+    }
+    cout<<endl;
+  }
+}
+void pattern13(int n){
+  // Pattern – 12: Number Crown Pattern
+  for(int row =0;row<n;row++){
+    // spaces
+    for(int col =0;col<n-row-1;col++){
+      cout<<" ";
+    }
+    // numbers
+    int start =1;
+    for(int col =0;col<2*row+1;col++){
+      if(row == 0 || row == n-1){
+        if(col%2 == 0){
+          cout<<start;
+          start++;
+        }
+      }
+      else{
+        if(col == 0){
+          cout<<1;
+        }
+      }
+      for(int col =0;col<2*row+1;col++){
+        if(row == 0 || row == n-1){
+          if(col%2 == 0){
+            cout<<start;
+            start++;
+          }
+        }
+        else{
+          if(col == 0){
+            cout<<1;
+      }
+      
+    }
+        
+  
+}
+int main() {
+  pattern(8);
+  cout << endl;
+  pattern2(8);
+  cout << endl;
+  pattern3(8);
+  cout << endl;
+  pattern4(8);
+  cout << endl;
+  pattern5(8);
+  cout << endl;
+  pattern6(8);
+  cout<<endl;
+  pattern7(8);
+  cout<<endl;
+  pattern8(8);
+  cout<<endl;
+  pattern9(8);
+  cout<<endl;
+  pattern10(8);
+  cout<<endl;
+  pattern12(8);
+  cout<<endl;
+
+    pattern13(8);
+
+}
   
   
 
